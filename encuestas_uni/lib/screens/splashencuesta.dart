@@ -37,6 +37,7 @@ class _SplashencuestaState extends State<Splashencuesta>{
     });
   }
 
+
   @override
   void dispose() {
     _navTimer?.cancel();
