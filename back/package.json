@@ -1,0 +1,17 @@
+{
+  "name": "encuestas-jfm-backend",
+  "version": "1.0.0",
+  "description": "API REST para la app Encuestas JFM (Juventud y Familia Misionera - Anáhuac Cancún)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
